@@ -118,10 +118,7 @@ nav ul li a: hover {
  border: solid 1px white;
  border-radius: 42px;margin: auto;
 }
-#home-btn{
-  background-color: #ff5722;
-}
-.Banner-Button:hover{
+.btn:hover{
   background-color: rgb(230, 83, 60);
   border-radius: 46px;
 }
@@ -692,9 +689,15 @@ th,td{
         padding: 20px;
         width: 100%;
     }
-  
-    .traning-image {
+  .habit-sec{
+   flex-direction: column;
+   margin: auto; 
+   align-content: center;
+  }
+    .training-image {
         flex-direction: column;
+        margin: auto;
+        align-content: center;
     }
   
     .img-no1, .img-no2, .img-no3, .img-no4, .img-no5, .img-no6 {
@@ -705,9 +708,14 @@ th,td{
     .team-member {
         width: 100%;
     }
+    .Team-section{
+      margin: auto;
+      align-content: center;
+    }
     .BMI-chart, .BMI-calcu {
       width: 100%;
       margin: auto; 
+      align-content: center;
       padding: 20px;
       background-color: #333;
       border-radius: 8px;
@@ -728,16 +736,24 @@ th,td{
     }
   
     .Column {
-        margin-bottom: 20px;
+       margin: auto; 
+        align-content: center;
+    }
+    .footer-part{
+      flex-direction: column;
+      margin:auto;
+      align-content: center;
     }
   
     .Column ul {
         padding: 0;
         text-align: center;
+        margin: auto;
+        align-content: center;
     }
   
     .Column li {
-        margin: 10px 0;
+        margin: auto;
     }
   }
   
@@ -783,7 +799,7 @@ th,td{
         width: 100%;
     }
   
-    .traning-image {
+    .training-image {
         flex-wrap: wrap;
         justify-content: space-between;
     }
